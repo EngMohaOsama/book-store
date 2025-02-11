@@ -9,9 +9,9 @@
         <a href="https://www.twitter.com" target="_blank" rel="noopener" class="mx-4">
             <v-icon color="primary" size="36" class="hover-scale">mdi-twitter</v-icon>
         </a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="mx-4">
+        <!-- <a href="https://www.youtube.com" target="_blank" rel="noopener" class="mx-4">
             <v-icon color="primary" size="36" class="hover-scale">mdi-youtube</v-icon>
-        </a>
+        </a> -->
     </v-container>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <v-container id="events" class="h-50 w-75 d-flex flex-column ga-2">
-        <h2 class="text-primary">Our Events</h2>
+        <h2 class="text-primary my-4">Our Events</h2>
         <v-row>
             <v-col cols="12" md="4" v-for="(item, index) in items" :key="index">
                 <v-card class="mx-auto" max-width="300" hover>

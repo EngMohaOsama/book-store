@@ -1,41 +1,41 @@
 <template>
     <v-container id="events" class="h-50 w-75 d-flex flex-column ga-2">
-        <h2 class="text-primary">MOST SALES</h2>
+        <h2 class="text-primary my-4">MOST SALES</h2>
         <v-row>
             <v-col cols="12" md="4" v-for="(item, index) in items" :key="index">
-                <v-card class="mx-auto" max-width="300" hover>
-                    <v-img :src="item.img" class="card-img" height="70%"></v-img>
-                    <v-card-title>{{ item.title }}</v-card-title>
-                    <v-card-subtitle>{{ item.subtitle }}</v-card-subtitle>
-                </v-card>
+                <v-img :src="item.img" class="card-img hover-scale" height="50%"></v-img>
+                <v-card-title class="text-subtitle-2 text-center">{{ item.title }}</v-card-title>
+                <v-card-subtitle class="text-caption text-center">{{
+                    item.subtitle
+                }}</v-card-subtitle>
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script>
-import dailyDealImage from "@/assets/imgs/events/Daily-Deal.jpeg";
-import VipOffersImage from "@/assets/imgs/events/VIP-Offers.jpeg";
-import WeekendDiscountsImage from "@/assets/imgs/events/Weekend-Discounts.jpeg";
+import theDoorToDoorBookstore from "@/assets/imgs/sales/The-Door-to-Door-Bookstore.jpg";
+import theForgottenBookShopInParis from "@/assets/imgs/sales/The-Forgotten-Bookshop-in-Paris.jpg";
+import theFullMoonCoffeeShop from "@/assets/imgs/sales/The-Full-Moon-Coffee-Shop.jpg";
 
 export default {
     data() {
         return {
             items: [
                 {
-                    img: dailyDealImage,
-                    title: "Daily Deal",
-                    subtitle: "Every day is a now deal !",
+                    img: theDoorToDoorBookstore,
+                    title: "The Door-to-Door Bookstore",
+                    subtitle: "Carsten Henn",
                 },
                 {
-                    img: VipOffersImage,
-                    title: "Vip Offers",
-                    subtitle: "secure your seat now !",
+                    img: theForgottenBookShopInParis,
+                    title: "The Forgotten Book Shop In Paris",
+                    subtitle: "Madeline Martin",
                 },
                 {
-                    img: WeekendDiscountsImage,
-                    title: "Weekend Discount",
-                    subtitle: "check it now !",
+                    img: theFullMoonCoffeeShop,
+                    title: "The Full Moon Coffee Shop",
+                    subtitle: "Mai Mochizuki",
                 },
             ],
         };
@@ -48,5 +48,12 @@ export default {
     width: 100%;
     height: 70%;
     object-fit: cover;
+}
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
 }
 </style>

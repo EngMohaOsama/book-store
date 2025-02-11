@@ -1,5 +1,5 @@
 <template>
-    <v-container class="d-flex justify-space-between my-4 w-25">
+    <v-container class="d-flex justify-center ga-5 my-4 mx-auto">
         <div>
             <v-img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png"
@@ -57,10 +57,6 @@ export default {
 </script>
 
 <style scoped>
-.icon-col {
-    /* margin: 0 10px; */
-}
-
 a {
     color: inherit;
     text-decoration: none;

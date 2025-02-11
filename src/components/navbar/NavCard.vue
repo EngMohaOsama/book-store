@@ -2,7 +2,7 @@
     <v-card width="800">
         <v-list class="d-flex flex-row justify-center">
             <v-list-item v-for="(item, index) in items" :key="index">
-                <RouterLink :to="item.path" class="nav-link">{{ item.title }}</RouterLink>
+                <RouterLink :to="item.path" class="nav-link text-h6">{{ item.title }}</RouterLink>
             </v-list-item>
         </v-list>
     </v-card>

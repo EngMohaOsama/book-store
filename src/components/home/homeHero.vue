@@ -1,12 +1,14 @@
 <template>
     <!-- event container -->
-    <homeEvent />
+    <v-container>
+        <homeEvent />
 
-    <v-divider length="50%"></v-divider>
+        <v-divider></v-divider>
 
-    <homeMostSales />
+        <homeMostSales />
 
-    <v-divider length="70%"></v-divider>
+        <v-divider></v-divider>
+    </v-container>
 
     <!-- <v-container class="h-50 w-75"> </v-container> -->
 </template>
