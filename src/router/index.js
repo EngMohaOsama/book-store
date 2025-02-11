@@ -1,10 +1,15 @@
+// Imported pages
+import AboutPage from "@pages/AboutUsPage.vue";
 import HomePage from "@pages/HomePage.vue";
 import LogInPage from "@pages/LogInPage.vue";
+
+// Vue Router
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
     { path: "/", component: HomePage },
     { path: "/login", component: LogInPage },
+    { path: "/about", component: AboutPage },
 ];
 
 const router = createRouter({

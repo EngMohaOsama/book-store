@@ -2,18 +2,23 @@
     <v-app-bar color="background" :elevation="1" height="190">
         <v-container class="d-flex flex-column">
             <v-container class="d-flex justify-center">
-                <v-app-bar-nav-icon variant="text" @click="ShowDrawer()"></v-app-bar-nav-icon>
+                <v-app-bar-nav-icon variant="text" @click="ShowDrawer()">
+                    <NavBtn>
+                        <v-icon>mdi-dots-grid</v-icon>
+                        <v-text>menu</v-text>
+                    </NavBtn>
+                </v-app-bar-nav-icon>
+
                 <v-spacer></v-spacer>
+
                 <v-app-bar-title @click="console.log('clicked')" class="text-center">
                     <v-icon class="mr-2">mdi-book-open-blank-variant-outline</v-icon>
                     BookBox
                 </v-app-bar-title>
+
                 <v-spacer></v-spacer>
-                <NavBtn>
-                    <v-icon>mdi-dots-grid</v-icon>
-                    <v-text>menu</v-text>
-                </NavBtn>
             </v-container>
+
             <v-container class="d-flex justify-center">
                 <NavCard />
             </v-container>

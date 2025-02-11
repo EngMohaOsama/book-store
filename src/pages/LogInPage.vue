@@ -1,21 +1,25 @@
 <template>
-    <v-card width="400" class="login-page">
-        <v-card-title>
-            <h1 class="display-1">Login</h1>
-        </v-card-title>
+    <v-container class="my-10 d-flex justify-center">
+        <v-card width="400" class="login-page">
+            <v-card-title class="text-center">
+                <h1 class="display-1 text-primary">Login</h1>
+            </v-card-title>
 
-        <v-card-text>
-            <v-form>
-                <v-text-field label="Username" />
+            <v-card-text>
+                <v-form>
+                    <v-text-field label="Username" class="mt-10" />
 
-                <v-text-field type="Password" label="Password" />
-            </v-form>
-        </v-card-text>
+                    <v-text-field type="Password" label="Password" class="my-4" />
+                </v-form>
+            </v-card-text>
 
-        <v-card-actions>
-            <v-btn variant="flat" color="primary"> Login </v-btn>
-        </v-card-actions>
-    </v-card>
+            <v-card-actions class="d-flex justify-center">
+                <v-btn variant="flat" color="primary" width="50%" class="text-subtitle-1 my-2">
+                    Login
+                </v-btn>
+            </v-card-actions>
+        </v-card>
+    </v-container>
 </template>
 
 <script>
@@ -37,45 +41,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.login-page {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.login-page h1 {
-    text-align: center;
-}
-
-.login-page form div {
-    margin-bottom: 1em;
-}
-
-.login-page label {
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-.login-page input {
-    width: 100%;
-    padding: 0.5em;
-    box-sizing: border-box;
-}
-
-.login-page button {
-    width: 100%;
-    padding: 0.5em;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.login-page button:hover {
-    background-color: #0056b3;
-}
-</style>
+<style scoped></style>

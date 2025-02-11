@@ -2,7 +2,7 @@
     <v-navigation-drawer
         class="h-screen order-12 d-flex align-center"
         v-model="localDrawer"
-        :location="$vuetify.display.mobile ? 'bottom' : 'top'"
+        :location="$vuetify.display.mobile ? 'bottom' : 'left'"
         temporary
     >
         <v-list :items="items"></v-list>

@@ -3,18 +3,19 @@
         <UserNavbar />
 
         <v-main>
-            <HomePage />
+            <router-view />
         </v-main>
+        <UserFooter />
     </v-app>
 </template>
 
 <script>
+import UserFooter from "@components/UserFooter.vue";
 import UserNavbar from "@navbar/UserNavbar.vue";
-// import LogInPage from "@pages/LogInPage.vue";
-import HomePage from "./pages/HomePage.vue";
+
 export default {
     name: "App",
-    components: { UserNavbar, HomePage },
+    components: { UserNavbar, UserFooter },
 };
 </script>
 

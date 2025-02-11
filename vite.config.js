@@ -14,6 +14,8 @@ export default defineConfig({
             "@navbar": fileURLToPath(new URL("./src/components/navbar", import.meta.url)),
             "@plugins": fileURLToPath(new URL("./src/plugins", import.meta.url)),
             "@pages": fileURLToPath(new URL("./src/pages", import.meta.url)),
+            "@imgs": fileURLToPath(new URL("./src/assets/imgs", import.meta.url)),
+            "@payout": fileURLToPath(new URL("./src/assets/imgs/payout", import.meta.url)),
         },
     },
 });

@@ -1,6 +1,6 @@
 <template>
-    <TopNavbar :drawer="drawer" @toggle-drawer="drawer = $event" />
     <NavDrawer v-model:drawer="drawer" />
+    <TopNavbar :drawer="drawer" @toggle-drawer="drawer = $event" />
 </template>
 
 <script>

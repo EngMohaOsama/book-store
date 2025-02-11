@@ -1,30 +1,30 @@
 <template>
-    <v-footer class="bg-grey-lighten-1">
-        <v-row justify="center" no-gutters>
-            <v-btn
-                v-for="link in links"
-                :key="link"
-                class="mx-2"
-                color="white"
-                rounded="xl"
-                variant="text"
-            >
-                {{ link }}
-            </v-btn>
-            <v-col class="text-center mt-4" cols="12">
-                {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-            </v-col>
-        </v-row>
+    <v-footer elevation="12" class="d-flex flex-column">
+        <UserFooterLinks />
+
+        <v-divider length="70%"></v-divider>
+
+        <UserFooterPayOut />
+
+        <v-divider length="70%"></v-divider>
+
+        <p class="mt-10">© Copyright <strong>Book Box</strong> 2025</p>
     </v-footer>
 </template>
 
 <script>
+import UserFooterLinks from "./footer/UserFooterLinks.vue";
+import UserFooterPayOut from "./footer/UserFooterPayOut.vue";
 export default {
-    name: "UserFoot",
-    data: () => ({
-        links: ["Home", "About US"],
-    }),
+    components: {
+        UserFooterLinks,
+        UserFooterPayOut,
+    },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+p {
+    color: grey;
+}
+</style>
