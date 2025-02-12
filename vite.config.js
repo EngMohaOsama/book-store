@@ -16,6 +16,7 @@ export default defineConfig({
             "@pages": fileURLToPath(new URL("./src/pages", import.meta.url)),
             "@imgs": fileURLToPath(new URL("./src/assets/imgs", import.meta.url)),
             "@payout": fileURLToPath(new URL("./src/assets/imgs/payout", import.meta.url)),
+            "@store": fileURLToPath(new URL("./src/stores", import.meta.url)),
         },
     },
 });

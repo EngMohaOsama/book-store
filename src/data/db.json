@@ -1,0 +1,404 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Persona 5: Vol 6",
+            "price": 520.0,
+            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+            "author": "Hisato Murasaki",
+            "category": "Manga"
+        },
+        {
+            "id": 2,
+            "title": "Promised Neverland 5",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 3,
+            "title": "Promised Neverland Vol. 20",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 4,
+            "title": "Promised Neverland 13",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 5,
+            "title": "Dragonball 15",
+            "price": 455.0,
+            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+            "author": "Akira Toriyama",
+            "category": "Manga"
+        },
+        {
+            "id": 6,
+            "title": "Shubeik Lubeik",
+            "price": 2280.0,
+            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+            "author": "Deena Mohamed",
+            "category": "Manga"
+        },
+        {
+            "id": 7,
+            "title": "Promised Neverland 3",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 8,
+            "title": "The Promised Neverland 2",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 9,
+            "title": "The Promised Neverland #16",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 10,
+            "title": "Promised Neverland #18",
+            "price": 605.0,
+            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+            "author": "Kaiu Shirai",
+            "category": "Manga"
+        },
+        {
+            "id": 11,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 12,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 13,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 14,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 15,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 16,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 17,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 18,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 19,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 20,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 21,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 22,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 23,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 24,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 25,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 26,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 27,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 28,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 29,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 30,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 31,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 32,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 33,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 34,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 35,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 36,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 37,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 38,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 39,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 40,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 41,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 42,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 43,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 44,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 45,
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 46,
+            "title": "Harry Potter and the Goblet of Fire",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 47,
+            "title": "Harry Potter and the Order of the Phoenix",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 48,
+            "title": "Harry Potter and the Half-Blood Prince",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 49,
+            "title": "Harry Potter and the Deathly Hallows",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        },
+        {
+            "id": 50,
+            "title": "Harry Potter and the Philosopher's Stone",
+            "price": 19.99,
+            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+            "author": "J.K. Rowling",
+            "category": "Fantasy"
+        }
+    ]
+}
