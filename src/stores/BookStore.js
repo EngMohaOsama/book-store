@@ -4,6 +4,7 @@ export const userBookStore = defineStore("bookStore", {
     state: () => ({
         books: [],
         loading: false,
+        totalBooks: 0,
     }),
     actions: {
         async getBooks() {
@@ -12,6 +13,7 @@ export const userBookStore = defineStore("bookStore", {
             const data = await res.json();
 
             this.books = data;
+            this.totalBooks = data.length;
             this.loading = false;
         },
     },
