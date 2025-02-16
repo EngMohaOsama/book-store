@@ -1,5 +1,5 @@
 // Imported pages
-import bookShop from "@/pages/bookShop.vue";
+import bookShop from "@/pages/BookShop.vue";
 import AboutPage from "@pages/AboutUsPage.vue";
 import HomePage from "@pages/HomePage.vue";
 import LogInPage from "@pages/LogInPage.vue";

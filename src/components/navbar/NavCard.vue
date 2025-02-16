@@ -1,15 +1,12 @@
 <template>
     <v-card width="800">
-        <v-list class="d-flex flex-row justify-center">
+        <v-list class="d-flex flex-row justify-space-around">
             <v-list-item
                 :to="item.path"
                 v-for="(item, index) in items"
                 :key="index"
                 class="text-h6 text-primary"
             >
-                <!-- <RouterLink :to="item.path" class="nav-link text-h6 text-primary">{{
-                    item.title
-                }}</RouterLink> -->
                 {{ item.title }}
             </v-list-item>
         </v-list>

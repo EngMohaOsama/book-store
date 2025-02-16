@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import UserFooterLinks from "./footer/UserFooterLinks.vue";
-import UserFooterPayOut from "./footer/UserFooterPayOut.vue";
+import UserFooterLinks from "./UserFooterLinks.vue";
+import UserFooterPayOut from "./UserFooterPayOut.vue";
 export default {
     components: {
         UserFooterLinks,

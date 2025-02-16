@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import UserFooter from "@components/UserFooter.vue";
+import UserFooter from "@footer/UserFooter.vue";
 import UserNavbar from "@navbar/UserNavbar.vue";
 
 export default {
@@ -19,8 +19,4 @@ export default {
 };
 </script>
 
-<style>
-/* body {
-    background-color: white !important;
-} */
-</style>
+<style></style>

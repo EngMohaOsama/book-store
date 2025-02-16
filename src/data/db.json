@@ -82,123 +82,123 @@
         },
         {
             "id": 11,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Terrible Beauty: Reckoning with Climate Complicity and Redis",
+            "price": 2085.0,
+            "img": "./src/assets/imgs/books/Terrible-Beauty-Reckoning-with-Climate-Complicity-and-Redis.jpg",
+            "author": "Auden Schendler",
+            "category": "Technology"
         },
         {
             "id": 12,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1789.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Nexus: A Brief History of Information Networks from the Stone",
+            "price": 1430.0,
+            "img": "./src/assets/imgs/books/Nexus-A-Brief-History.jpg",
+            "author": "Yuval Noah Harari",
+            "category": "Technology"
         },
         {
             "id": 13,
-            "title": "Harry Potter and the Half-Blood Prince",
-            "price": 1567.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "The Brain: The Story of You",
+            "price": 830.0,
+            "img": "./src/assets/imgs/books/The-Brain-The Story-of-You.jpg",
+            "author": "David Eagleman",
+            "category": "Technology"
         },
         {
             "id": 14,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1345.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Natural Wonders of the World",
+            "price": 2255.0,
+            "img": "./src/assets/imgs/books/Natural-Wonders-of-the-World.jpg",
+            "author": "DK",
+            "category": "Technology"
         },
         {
             "id": 15,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "1001 Inventions: The Enduring Legacy of Muslim Civilization",
+            "price": 1825.0,
+            "img": "./src/assets/imgs/books/1001-Inventions.jpg",
+            "author": "Salim T. S. Al-Hassani",
+            "category": "Technology"
         },
         {
             "id": 16,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Our Final Invention: Artificial Intelligence and the End of",
+            "price": 830.0,
+            "img": "./src/assets/imgs/books/Our-Final-Invention.jpg",
+            "author": "James Barrat",
+            "category": "Technology"
         },
         {
             "id": 17,
-            "title": "Harry Potter and the Prisoner of Azkaban",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Turkuaz Kitchen: Traditional and Modern Dough Recipes for Sw",
+            "price": 2020.0,
+            "img": "./src/assets/imgs/books/Turkuaz-Kitchen.jpg",
+            "author": "Betul Tunc",
+            "category": "cookery"
         },
         {
             "id": 18,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Simply Jamie: Celebrate the Joy of Food",
+            "price": 2255.0,
+            "img": "./src/assets/imgs/books/Simply-Jamie.jpg",
+            "author": "Jamie Oliver",
+            "category": "cookery"
         },
         {
             "id": 19,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "One",
+            "price": 2105.0,
+            "img": "./src/assets/imgs/books/One.jpg",
+            "author": "Jamie Oliver",
+            "category": "cookery"
         },
         {
             "id": 20,
-            "title": "Harry Potter and the Half-Blood Prince",
+            "title": "5 Ingredients Mediterranean: Simple Incredible Food",
             "price": 1678.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "img": "./src/assets/imgs/books/5-Ingredients-Mediterranean.jpg",
+            "author": "Jamie Oliver",
+            "category": "cookery"
         },
         {
             "id": 21,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Vegetarian Salad for Dinner: Inventive Plant-Forward Meals",
+            "price": 2605.0,
+            "img": "./src/assets/imgs/books/Vegetarian-Salad-for-Dinner.jpg",
+            "author": "Jeanne Kelley",
+            "category": "cookery"
         },
         {
             "id": 22,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Good Food Sorted",
+            "price": 1235.0,
+            "img": "./src/assets/imgs/books/Good-Food-Sorted.jpg",
+            "author": "Chris Bavin",
+            "category": "cookery"
         },
         {
             "id": 23,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Eat Fat Get Thin Cookbook",
+            "price": 1105.0,
+            "img": "./src/assets/imgs/books/Eat-Fat-Get-Thin-Cookbook.jpg",
+            "author": "Mark Hyman",
+            "category": "cookery"
         },
         {
             "id": 24,
-            "title": "Harry Potter and the Prisoner of Azkaban",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "Egyptian Cooking",
+            "price": 550.0,
+            "img": "./src/assets/imgs/books/Egyptian-Cooking.jpg",
+            "author": "Samia Abdennour",
+            "category": "cookery"
         },
         {
             "id": 25,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
+            "title": "The Pasta Queen",
+            "price": 1955.0,
+            "img": "./src/assets/imgs/books/The-Pasta-Queen.jpg",
+            "author": "Nadia Caterina Munno",
+            "category": "cookery"
         },
         {
             "id": 26,

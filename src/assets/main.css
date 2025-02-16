@@ -18,15 +18,21 @@ a,
     }
 }
 
-/* @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+.hover-scale {
+    transition: transform 0.3s ease;
+    transform-origin: center bottom;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-} */
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.selected-category {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
