@@ -1,11 +1,28 @@
 <template>
     <v-navigation-drawer
-        class="h-screen order-12 d-flex align-center"
+        class="h-screen order-12 d-flex flex-column justify-space-between align-center"
         v-model="localDrawer"
         :location="$vuetify.display.mobile ? 'bottom' : 'left'"
         temporary
     >
-        <v-list :items="items"></v-list>
+        <v-container>
+            <v-container class="d-flex flex-column justify-space-between align-center">
+                <v-list>
+                    <v-list-item
+                        v-for="(item, index) in items"
+                        :key="index"
+                        :to="item.path"
+                        @click="navigateTo(item.path)"
+                    >
+                        <v-list-item-title>{{ item.title }}</v-list-item-title>
+                    </v-list-item>
+                </v-list>
+            </v-container>
+
+            <v-container class="d-flex flex-column justify-center align-center">
+                <v-btn color="error" @click="closeDrawer" icon="mdi-close" :location="bot"></v-btn>
+            </v-container>
+        </v-container>
     </v-navigation-drawer>
 </template>
 
@@ -22,10 +39,10 @@ export default {
             localDrawer: this.drawer,
             group: null,
             items: [
-                { title: "item 1", value: "foo" },
-                { title: "item 2", value: "bar" },
-                { title: "item 3", value: "fizz" },
-                { title: "item 4", value: "buzz" },
+                { title: "Home", path: "/" },
+                { title: "Login", path: "/login" },
+                { title: "About", path: "/about" },
+                { title: "Shop", path: "/shop" },
             ],
         };
     },
@@ -35,6 +52,15 @@ export default {
         },
         localDrawer(newVal) {
             this.$emit("update:drawer", newVal);
+        },
+    },
+    methods: {
+        navigateTo(path) {
+            this.$router.push(path);
+            this.localDrawer = false;
+        },
+        closeDrawer() {
+            this.localDrawer = false;
         },
     },
 };

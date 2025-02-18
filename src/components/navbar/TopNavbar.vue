@@ -2,18 +2,15 @@
     <v-app-bar color="background" :elevation="1" height="190">
         <v-container class="d-flex flex-column">
             <v-container class="d-flex justify-center">
-                <v-app-bar-nav-icon variant="text" @click="ShowDrawer()">
-                    <NavBtn>
-                        <v-icon>mdi-dots-grid</v-icon>
-                        <v-text>menu</v-text>
-                    </NavBtn>
+                <v-app-bar-nav-icon v-show="isVisible" variant="text" @click="ShowDrawer()">
+                    <v-btn icon="mdi-dots-grid" color="primary" variant="elevated"> </v-btn>
                 </v-app-bar-nav-icon>
 
                 <v-spacer></v-spacer>
 
                 <v-app-bar-title @click="navigateHome" class="text-center pointer">
                     <v-icon class="mr-2">mdi-book-open-blank-variant-outline</v-icon>
-                    BookBox
+                    <span v-show="isHidden">BookBox</span>
                 </v-app-bar-title>
 
                 <v-spacer></v-spacer>
@@ -33,12 +30,10 @@
 <script>
 import { userBookStore } from "@store/BookStore.js";
 import { computed } from "vue";
-import NavBtn from "./NavBtn.vue";
 import NavCard from "./NavCard.vue";
 
 export default {
     components: {
-        NavBtn,
         NavCard,
     },
     props: {
@@ -55,12 +50,30 @@ export default {
             cartItemCount,
         };
     },
+    data() {
+        return {
+            isVisible: true,
+            isHidden: false,
+        };
+    },
+    mounted() {
+        this.checkVisibility();
+        window.addEventListener("resize", this.checkVisibility);
+    },
+    beforeUnmount() {
+        window.removeEventListener("resize", this.checkVisibility);
+    },
+
     methods: {
         ShowDrawer() {
             this.$emit("toggle-drawer", !this.drawer);
         },
         navigateHome() {
             this.$router.push("/");
+        },
+        checkVisibility() {
+            this.isVisible = window.innerWidth < 600;
+            this.isHidden = !this.isVisible;
         },
     },
 };

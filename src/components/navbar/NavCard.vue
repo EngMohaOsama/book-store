@@ -1,5 +1,5 @@
 <template>
-    <v-card width="800">
+    <v-card v-show="isVisible" width="800">
         <v-list class="d-flex flex-row justify-space-around">
             <v-list-item
                 :to="item.path"
@@ -23,7 +23,20 @@ export default {
                 { title: "About", path: "/about" },
                 { title: "Shop", path: "/shop" },
             ],
+            isVisible: true,
         };
+    },
+    mounted() {
+        this.checkVisibility();
+        window.addEventListener("resize", this.checkVisibility);
+    },
+    beforeUnmount() {
+        window.removeEventListener("resize", this.checkVisibility);
+    },
+    methods: {
+        checkVisibility() {
+            this.isVisible = window.innerWidth > 600;
+        },
     },
 };
 </script>

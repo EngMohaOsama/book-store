@@ -1,8 +1,8 @@
 <template>
     <v-container>
         <v-row>
-            <v-col v-for="book in paginatedBooks" :key="book.id" cols="12" sm="6" md="4">
-                <v-card class="card" width="60%">
+            <v-col v-for="book in paginatedBooks" :key="book.id" cols="12" sm="4" md="3">
+                <v-card class="card">
                     <v-img :src="book.img" class="card-img hover-scale"></v-img>
 
                     <v-card-title class="text-subtitle-2 text-center text-primary-darken-1">
@@ -75,5 +75,11 @@ export default {
 <style scoped>
 span {
     font-size: 0.5rem;
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 100% !important;
+    }
 }
 </style>
