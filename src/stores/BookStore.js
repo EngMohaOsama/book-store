@@ -9,6 +9,7 @@ export const userBookStore = defineStore("bookStore", {
         categories: [],
         selectedCategory: localStorage.getItem("selectedCategory") || "All",
         currentPage: 1,
+        cart: [],
     }),
     actions: {
         async getBooks() {
@@ -21,6 +22,11 @@ export const userBookStore = defineStore("bookStore", {
             this.totalBooks = this.filteredBooks.length;
             this.loading = false;
             this.getCategories();
+        },
+        async fetchCart() {
+            const res = await fetch("http://localhost:3000/cart");
+            const data = await res.json();
+            this.cart = data;
         },
         filterBooksByCategory(category) {
             this.currentPage = 1;
@@ -36,6 +42,34 @@ export const userBookStore = defineStore("bookStore", {
         getCategories() {
             const categoriesSet = new Set(this.books.map((book) => book.category));
             this.categories = ["All", ...Array.from(categoriesSet)];
+        },
+        async addToCart(book) {
+            const bookInCart = this.cart.find((item) => item.id === book.id);
+            if (!bookInCart) {
+                this.cart.push(book);
+                await fetch("http://localhost:3000/cart", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(book),
+                });
+            }
+        },
+        async removeFromCart(bookId) {
+            this.cart = this.cart.filter((book) => book.id !== bookId);
+            await fetch(`http://localhost:3000/cart/${bookId}`, {
+                method: "DELETE",
+            });
+        },
+        async clearCart() {
+            const cartItems = [...this.cart];
+            for (const item of cartItems) {
+                await fetch(`http://localhost:3000/cart/${item.id}`, {
+                    method: "DELETE",
+                });
+            }
+            this.cart = [];
         },
     },
 });

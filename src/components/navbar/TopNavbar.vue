@@ -11,12 +11,16 @@
 
                 <v-spacer></v-spacer>
 
-                <v-app-bar-title @click="console.log('clicked')" class="text-center">
+                <v-app-bar-title @click="navigateHome" class="text-center pointer">
                     <v-icon class="mr-2">mdi-book-open-blank-variant-outline</v-icon>
                     BookBox
                 </v-app-bar-title>
 
                 <v-spacer></v-spacer>
+                <v-badge :content="cartItemCount" color="red" overlap>
+                    <v-btn color="primary" variant="elevated" icon="mdi-cart-variant" :to="'/cart'">
+                    </v-btn>
+                </v-badge>
             </v-container>
 
             <v-container class="d-flex justify-center">
@@ -27,8 +31,11 @@
 </template>
 
 <script>
+import { userBookStore } from "@store/BookStore.js";
+import { computed } from "vue";
 import NavBtn from "./NavBtn.vue";
 import NavCard from "./NavCard.vue";
+
 export default {
     components: {
         NavBtn,
@@ -40,12 +47,27 @@ export default {
             required: true,
         },
     },
+    setup() {
+        const bookstore = userBookStore();
+        const cartItemCount = computed(() => bookstore.cart.length);
+
+        return {
+            cartItemCount,
+        };
+    },
     methods: {
         ShowDrawer() {
             this.$emit("toggle-drawer", !this.drawer);
+        },
+        navigateHome() {
+            this.$router.push("/");
         },
     },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.pointer {
+    cursor: pointer;
+}
+</style>

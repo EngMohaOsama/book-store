@@ -9,6 +9,8 @@ import { createPinia } from "pinia";
 
 import { createApp } from "vue";
 
+import { userBookStore } from "./stores/BookStore";
+
 // styles
 import "./assets/main.css";
 
@@ -18,4 +20,8 @@ const app = createApp(App);
 app.use(router);
 app.use(pinia);
 app.use(vuetify);
+
+const store = userBookStore();
+store.fetchCart();
+
 app.mount("#app");

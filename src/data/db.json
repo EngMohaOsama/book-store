@@ -1,404 +1,405 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "title": "Persona 5: Vol 6",
-            "price": 520.0,
-            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
-            "author": "Hisato Murasaki",
-            "category": "Manga"
-        },
-        {
-            "id": 2,
-            "title": "Promised Neverland 5",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 3,
-            "title": "Promised Neverland Vol. 20",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 4,
-            "title": "Promised Neverland 13",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 5,
-            "title": "Dragonball 15",
-            "price": 455.0,
-            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
-            "author": "Akira Toriyama",
-            "category": "Manga"
-        },
-        {
-            "id": 6,
-            "title": "Shubeik Lubeik",
-            "price": 2280.0,
-            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
-            "author": "Deena Mohamed",
-            "category": "Manga"
-        },
-        {
-            "id": 7,
-            "title": "Promised Neverland 3",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 8,
-            "title": "The Promised Neverland 2",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 9,
-            "title": "The Promised Neverland #16",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 10,
-            "title": "Promised Neverland #18",
-            "price": 605.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
-            "author": "Kaiu Shirai",
-            "category": "Manga"
-        },
-        {
-            "id": 11,
-            "title": "Terrible Beauty: Reckoning with Climate Complicity and Redis",
-            "price": 2085.0,
-            "img": "./src/assets/imgs/books/Terrible-Beauty-Reckoning-with-Climate-Complicity-and-Redis.jpg",
-            "author": "Auden Schendler",
-            "category": "Technology"
-        },
-        {
-            "id": 12,
-            "title": "Nexus: A Brief History of Information Networks from the Stone",
-            "price": 1430.0,
-            "img": "./src/assets/imgs/books/Nexus-A-Brief-History.jpg",
-            "author": "Yuval Noah Harari",
-            "category": "Technology"
-        },
-        {
-            "id": 13,
-            "title": "The Brain: The Story of You",
-            "price": 830.0,
-            "img": "./src/assets/imgs/books/The-Brain-The Story-of-You.jpg",
-            "author": "David Eagleman",
-            "category": "Technology"
-        },
-        {
-            "id": 14,
-            "title": "Natural Wonders of the World",
-            "price": 2255.0,
-            "img": "./src/assets/imgs/books/Natural-Wonders-of-the-World.jpg",
-            "author": "DK",
-            "category": "Technology"
-        },
-        {
-            "id": 15,
-            "title": "1001 Inventions: The Enduring Legacy of Muslim Civilization",
-            "price": 1825.0,
-            "img": "./src/assets/imgs/books/1001-Inventions.jpg",
-            "author": "Salim T. S. Al-Hassani",
-            "category": "Technology"
-        },
-        {
-            "id": 16,
-            "title": "Our Final Invention: Artificial Intelligence and the End of",
-            "price": 830.0,
-            "img": "./src/assets/imgs/books/Our-Final-Invention.jpg",
-            "author": "James Barrat",
-            "category": "Technology"
-        },
-        {
-            "id": 17,
-            "title": "Turkuaz Kitchen: Traditional and Modern Dough Recipes for Sw",
-            "price": 2020.0,
-            "img": "./src/assets/imgs/books/Turkuaz-Kitchen.jpg",
-            "author": "Betul Tunc",
-            "category": "cookery"
-        },
-        {
-            "id": 18,
-            "title": "Simply Jamie: Celebrate the Joy of Food",
-            "price": 2255.0,
-            "img": "./src/assets/imgs/books/Simply-Jamie.jpg",
-            "author": "Jamie Oliver",
-            "category": "cookery"
-        },
-        {
-            "id": 19,
-            "title": "One",
-            "price": 2105.0,
-            "img": "./src/assets/imgs/books/One.jpg",
-            "author": "Jamie Oliver",
-            "category": "cookery"
-        },
-        {
-            "id": 20,
-            "title": "5 Ingredients Mediterranean: Simple Incredible Food",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/5-Ingredients-Mediterranean.jpg",
-            "author": "Jamie Oliver",
-            "category": "cookery"
-        },
-        {
-            "id": 21,
-            "title": "Vegetarian Salad for Dinner: Inventive Plant-Forward Meals",
-            "price": 2605.0,
-            "img": "./src/assets/imgs/books/Vegetarian-Salad-for-Dinner.jpg",
-            "author": "Jeanne Kelley",
-            "category": "cookery"
-        },
-        {
-            "id": 22,
-            "title": "Good Food Sorted",
-            "price": 1235.0,
-            "img": "./src/assets/imgs/books/Good-Food-Sorted.jpg",
-            "author": "Chris Bavin",
-            "category": "cookery"
-        },
-        {
-            "id": 23,
-            "title": "Eat Fat Get Thin Cookbook",
-            "price": 1105.0,
-            "img": "./src/assets/imgs/books/Eat-Fat-Get-Thin-Cookbook.jpg",
-            "author": "Mark Hyman",
-            "category": "cookery"
-        },
-        {
-            "id": 24,
-            "title": "Egyptian Cooking",
-            "price": 550.0,
-            "img": "./src/assets/imgs/books/Egyptian-Cooking.jpg",
-            "author": "Samia Abdennour",
-            "category": "cookery"
-        },
-        {
-            "id": 25,
-            "title": "The Pasta Queen",
-            "price": 1955.0,
-            "img": "./src/assets/imgs/books/The-Pasta-Queen.jpg",
-            "author": "Nadia Caterina Munno",
-            "category": "cookery"
-        },
-        {
-            "id": 26,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 27,
-            "title": "Harry Potter and the Half-Blood Prince",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 28,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 29,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 30,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 31,
-            "title": "Harry Potter and the Prisoner of Azkaban",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 32,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 33,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 34,
-            "title": "Harry Potter and the Half-Blood Prince",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 35,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 36,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 37,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 38,
-            "title": "Harry Potter and the Prisoner of Azkaban",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 39,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 40,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 41,
-            "title": "Harry Potter and the Half-Blood Prince",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 42,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 43,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 44,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 45,
-            "title": "Harry Potter and the Prisoner of Azkaban",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/Dragonball-15.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 46,
-            "title": "Harry Potter and the Goblet of Fire",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 47,
-            "title": "Harry Potter and the Order of the Phoenix",
-            "price": 1890.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 48,
-            "title": "Harry Potter and the Half-Blood Prince",
-            "price": 1678.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 49,
-            "title": "Harry Potter and the Deathly Hallows",
-            "price": 1456.0,
-            "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        },
-        {
-            "id": 50,
-            "title": "Harry Potter and the Philosopher's Stone",
-            "price": 1234.0,
-            "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
-            "author": "J.K. Rowling",
-            "category": "Fantasy"
-        }
-    ]
+  "books": [
+    {
+      "id": "1",
+      "title": "Persona 5: Vol 6",
+      "price": 520,
+      "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+      "author": "Hisato Murasaki",
+      "category": "Manga"
+    },
+    {
+      "id": "2",
+      "title": "Promised Neverland 5",
+      "price": 605,
+      "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "3",
+      "title": "Promised Neverland Vol. 20",
+      "price": 605,
+      "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "4",
+      "title": "Promised Neverland 13",
+      "price": 605,
+      "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "5",
+      "title": "Dragonball 15",
+      "price": 455,
+      "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+      "author": "Akira Toriyama",
+      "category": "Manga"
+    },
+    {
+      "id": "6",
+      "title": "Shubeik Lubeik",
+      "price": 2280,
+      "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+      "author": "Deena Mohamed",
+      "category": "Manga"
+    },
+    {
+      "id": "7",
+      "title": "Promised Neverland 3",
+      "price": 605,
+      "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "8",
+      "title": "The Promised Neverland 2",
+      "price": 605,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "9",
+      "title": "The Promised Neverland #16",
+      "price": 605,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "10",
+      "title": "Promised Neverland #18",
+      "price": 605,
+      "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+      "author": "Kaiu Shirai",
+      "category": "Manga"
+    },
+    {
+      "id": "11",
+      "title": "Terrible Beauty: Reckoning with Climate Complicity and Redis",
+      "price": 2085,
+      "img": "./src/assets/imgs/books/Terrible-Beauty-Reckoning-with-Climate-Complicity-and-Redis.jpg",
+      "author": "Auden Schendler",
+      "category": "Technology"
+    },
+    {
+      "id": "12",
+      "title": "Nexus: A Brief History of Information Networks from the Stone",
+      "price": 1430,
+      "img": "./src/assets/imgs/books/Nexus-A-Brief-History.jpg",
+      "author": "Yuval Noah Harari",
+      "category": "Technology"
+    },
+    {
+      "id": "13",
+      "title": "The Brain: The Story of You",
+      "price": 830,
+      "img": "./src/assets/imgs/books/The-Brain-The Story-of-You.jpg",
+      "author": "David Eagleman",
+      "category": "Technology"
+    },
+    {
+      "id": "14",
+      "title": "Natural Wonders of the World",
+      "price": 2255,
+      "img": "./src/assets/imgs/books/Natural-Wonders-of-the-World.jpg",
+      "author": "DK",
+      "category": "Technology"
+    },
+    {
+      "id": "15",
+      "title": "1001 Inventions: The Enduring Legacy of Muslim Civilization",
+      "price": 1825,
+      "img": "./src/assets/imgs/books/1001-Inventions.jpg",
+      "author": "Salim T. S. Al-Hassani",
+      "category": "Technology"
+    },
+    {
+      "id": "16",
+      "title": "Our Final Invention: Artificial Intelligence and the End of",
+      "price": 830,
+      "img": "./src/assets/imgs/books/Our-Final-Invention.jpg",
+      "author": "James Barrat",
+      "category": "Technology"
+    },
+    {
+      "id": "17",
+      "title": "Turkuaz Kitchen: Traditional and Modern Dough Recipes for Sw",
+      "price": 2020,
+      "img": "./src/assets/imgs/books/Turkuaz-Kitchen.jpg",
+      "author": "Betul Tunc",
+      "category": "cookery"
+    },
+    {
+      "id": "18",
+      "title": "Simply Jamie: Celebrate the Joy of Food",
+      "price": 2255,
+      "img": "./src/assets/imgs/books/Simply-Jamie.jpg",
+      "author": "Jamie Oliver",
+      "category": "cookery"
+    },
+    {
+      "id": "19",
+      "title": "One",
+      "price": 2105,
+      "img": "./src/assets/imgs/books/One.jpg",
+      "author": "Jamie Oliver",
+      "category": "cookery"
+    },
+    {
+      "id": "20",
+      "title": "5 Ingredients Mediterranean: Simple Incredible Food",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/5-Ingredients-Mediterranean.jpg",
+      "author": "Jamie Oliver",
+      "category": "cookery"
+    },
+    {
+      "id": "21",
+      "title": "Vegetarian Salad for Dinner: Inventive Plant-Forward Meals",
+      "price": 2605,
+      "img": "./src/assets/imgs/books/Vegetarian-Salad-for-Dinner.jpg",
+      "author": "Jeanne Kelley",
+      "category": "cookery"
+    },
+    {
+      "id": "22",
+      "title": "Good Food Sorted",
+      "price": 1235,
+      "img": "./src/assets/imgs/books/Good-Food-Sorted.jpg",
+      "author": "Chris Bavin",
+      "category": "cookery"
+    },
+    {
+      "id": "23",
+      "title": "Eat Fat Get Thin Cookbook",
+      "price": 1105,
+      "img": "./src/assets/imgs/books/Eat-Fat-Get-Thin-Cookbook.jpg",
+      "author": "Mark Hyman",
+      "category": "cookery"
+    },
+    {
+      "id": "24",
+      "title": "Egyptian Cooking",
+      "price": 550,
+      "img": "./src/assets/imgs/books/Egyptian-Cooking.jpg",
+      "author": "Samia Abdennour",
+      "category": "cookery"
+    },
+    {
+      "id": "25",
+      "title": "The Pasta Queen",
+      "price": 1955,
+      "img": "./src/assets/imgs/books/The-Pasta-Queen.jpg",
+      "author": "Nadia Caterina Munno",
+      "category": "cookery"
+    },
+    {
+      "id": "26",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "27",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "28",
+      "title": "Harry Potter and the Deathly Hallows",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "29",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "30",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "31",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "32",
+      "title": "Harry Potter and the Goblet of Fire",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "33",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "34",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "35",
+      "title": "Harry Potter and the Deathly Hallows",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "36",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "37",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "38",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "39",
+      "title": "Harry Potter and the Goblet of Fire",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "40",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "41",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/Persona-5-Vo-6.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "42",
+      "title": "Harry Potter and the Deathly Hallows",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Promised-Neverland-5.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "43",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/Promised-Neverland-Vol.-20.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "44",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/Promised-Neverland-13.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "45",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/Dragonball-15.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "46",
+      "title": "Harry Potter and the Goblet of Fire",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Shubeik-Lubeik.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "47",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "price": 1890,
+      "img": "./src/assets/imgs/books/Promised-Neverland-3.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "48",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "price": 1678,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-2.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "49",
+      "title": "Harry Potter and the Deathly Hallows",
+      "price": 1456,
+      "img": "./src/assets/imgs/books/The-Promised-Neverland-16.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    },
+    {
+      "id": "50",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "price": 1234,
+      "img": "./src/assets/imgs/books/Promised-Neverland-18.jpg",
+      "author": "J.K. Rowling",
+      "category": "Fantasy"
+    }
+  ],
+  "cart": []
 }

@@ -14,8 +14,16 @@
                     </v-card-subtitle>
 
                     <v-card-subtitle class="text-caption text-center">
-                        <span>EGP</span> {{ book.price }}
+                        {{ book.price }} <span>EGP</span>
                     </v-card-subtitle>
+                    <v-card-actions class="d-flex justify-space-around">
+                        <v-btn @click="addToCart(book)" color="primary" icon>
+                            <v-icon>mdi-cart-plus</v-icon>
+                        </v-btn>
+                        <v-btn @click="removeFromCart(book.id)" color="red" icon>
+                            <v-icon>mdi-cart-remove</v-icon>
+                        </v-btn>
+                    </v-card-actions>
                 </v-card>
             </v-col>
         </v-row>
@@ -48,8 +56,13 @@ export default {
         },
     },
     methods: {
+        addToCart(book) {
+            this.bookstore.addToCart(book);
+        },
+        removeFromCart(bookId) {
+            this.bookstore.removeFromCart(bookId);
+        },
         filterBooksByCategory(category) {
-            this.bookstore.currentPage = 1;
             this.bookstore.filterBooksByCategory(category);
         },
     },
